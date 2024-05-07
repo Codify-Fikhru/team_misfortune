@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700|Noto%20Sans:400");
+
+body {
+	@apply bg-background-50 text-text-950 scroll-smooth;
+}
+
+::-webkit-scrollbar {
+	@apply w-1 h-1;
+}
+
+::-webkit-scrollbar-thumb {
+	@apply bg-primary-400 rounded-3xl;
+}
+
+::-webkit-scrollbar-track {
+	@apply bg-background-50;
+}
